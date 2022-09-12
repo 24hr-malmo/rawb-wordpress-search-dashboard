@@ -4,7 +4,7 @@
 Plugin Name: RAWB Search Dashboard
 Plugin URI: http://24hr.se
 Description: Dashboard for the search services
-Version: 0.1.0
+Version: 0.1.1
 Author: Camilo Tapia <camilo.tapia@24hr.se>
 */
 

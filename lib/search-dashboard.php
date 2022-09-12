@@ -146,7 +146,9 @@ GRAPHQL;
                 ]
             ]))) {
                 $error = error_get_last();
-                throw new \ErrorException($error['message'], $error['type']);
+                error_log('ERROR: ' . $error['message'] . ', ' . $error['type'] );
+                return json_decode( '{}', true);
+                //throw new \ErrorException($error['message'], $error['type']);
             }
 
             return json_decode($data, true);
